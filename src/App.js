@@ -1,10 +1,15 @@
 import React from 'react';
 import './app.css';
+import Sidebar from './Component/SideBar Section/Sidebar'; 
+import Body from './Component/Body Section/Body';
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div className='container'>
+      <Sidebar />
+      <Body/>
+    </div>
+  );
+};
 
-export default App
+export default App;
