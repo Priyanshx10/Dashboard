@@ -13,24 +13,27 @@ import { MdOutlinePermContactCalendar } from "react-icons/md";
 const Sidebar = () => {
   return (
     <div className='sideBar grid'>
+
       <div className="logoDiv flex">
-        <img src={Logo} alt='Plant Logo' />
-        <h2>Dashboard</h2>
+        <img src={Logo} alt='Plant' />
+        <h2>Planti.</h2>
       </div>
 
       <div className='menuDiv'>
-        <h3 className="divTitle">QUICK MENU</h3>
+        <h3 className="divTitle">
+          QUICK MENU
+          </h3>
         <ul className='menuLists grid'>
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
               <IoMdSpeedometer className='icon' />
-              <span className='smallText'>DashBoard</span>
+              <span className='smallText'>Dashboard</span>
             </a>
           </li>
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
               <MdDeliveryDining className='icon' />
-              <span className='smallText'>My Order</span>
+              <span className='smallText'>My Orders</span>
             </a>
           </li>
           <li className='listItem'>

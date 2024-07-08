@@ -1,6 +1,6 @@
 /* Root variables */
 :root {
-    --PrimaryColor: hsl(94, 59%, 35%);
+    --PrimaryColor: hsl(94, 74%, 36%);
     --HoverColor: #bdf094;
     --paleGreen: hsl(96, 75%, 89%); /* Corrected typo (351 -> hsl) */
     --whiteColor: hsl(0, 0%, 100%);
@@ -12,7 +12,7 @@
   }
   
   /* Font sizes */
-  :root {
+:root {
     --biggestFontSize: 2.5rem;
     --h1FontSize: 1.5rem;
     --h2FontSize: 1.25rem;
@@ -25,23 +25,26 @@
 .sideBar{
     background: var(--whiteColor);
     box-shadow: 1px 0px 4px var(--greyText);
-    width: 18%;
+    width:18%;
     height: 100%;
     gap: 3rem;
     overflow: auto;
 
     .logoDiv{
-        padding-left: 1.5rem 1.5rem 0;
+        padding: 1.5rem 1.5rem 0;
         cursor: pointer;
 
-        .img{
+        img{
             max-width: 20px;
             margin-right: .5rem;
             background: var(--inputColor);
             border-radius: 2px;
             padding: .2rem;
         }
-    }
 
-  
+        h2{
+            font-size: var(--h2FontSize);
+            color: var(--PrimaryColor);
+        }
+    }
 }
